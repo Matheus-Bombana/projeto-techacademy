@@ -172,13 +172,6 @@ footer {
       transform: scale(1.05);
     }
 
-aside h3 p a {
-    text-decoration: none;
-}
-
-label {
-    font-weight: bold;
-}
 
 .formulario {
     width: 100%;
@@ -205,4 +198,17 @@ label, .formulario {
 
 .btn-reset {
     background-color: red;
+}
+
+main {
+    font-family: fantasy;
+    font-size: 110%;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+main h3 a {
+    text-decoration: none;
 }
