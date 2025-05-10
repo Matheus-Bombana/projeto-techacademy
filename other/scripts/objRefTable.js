@@ -77,8 +77,6 @@ self.C3_JsPropNameTable = [
 	{PlanoDeFundoEmBlocos2: 0},
 	{PlanoDeFundoEmBlocos3: 0},
 	{Sprite: 0},
-	{Sprite2: 0},
-	{Texto: 0},
 	{Pontos: 0}
 ];
 
@@ -102,7 +100,5 @@ self.InstanceType = {
 	PlanoDeFundoEmBlocos: class extends self.ITiledBackgroundInstance {},
 	PlanoDeFundoEmBlocos2: class extends self.ITiledBackgroundInstance {},
 	PlanoDeFundoEmBlocos3: class extends self.ITiledBackgroundInstance {},
-	Sprite: class extends self.ISpriteInstance {},
-	Sprite2: class extends self.ISpriteInstance {},
-	Texto: class extends self.ITextInstance {}
+	Sprite: class extends self.ISpriteInstance {}
 }
