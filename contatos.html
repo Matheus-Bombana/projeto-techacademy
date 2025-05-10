@@ -34,9 +34,12 @@
     </h1>
     <form name="form-nome" method="get" action="">
       <p><label for="nomeCompleto">Digite o seu nome</label></p>
-      <input type="text" name="nomeCompleto" id="nomeCompleto" size="50" maxlength="40" placeholder="Nome completo">
+      <input type="text" name="nomeCompleto" id="nomeCompleto" size="50" maxlength="40" placeholder="Nome completo" autocomplete="off" required>
       <p><label for="email">Digite o seu email</label></p>
-      <input type="text" name="email" id="email" size="50" maxlength="40" placeholder="Email">
+      <input type="text" name="email" id="email" size="50" maxlength="40" placeholder="Email" autocomplete="off" required>
+      <br>
+      <button type="submit" class="btn-submit">Enviar dados</button>
+      <button type="reset" class="btn-reset">Limpar campos</button>
     </form>
     <h3>
       <p>
