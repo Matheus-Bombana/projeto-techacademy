@@ -171,3 +171,7 @@ footer {
     .galeria img:hover {
       transform: scale(1.05);
     }
+
+aside h3 p a {
+    text-decoration: none;
+}
