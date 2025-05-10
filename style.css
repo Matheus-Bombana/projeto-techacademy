@@ -176,3 +176,33 @@ aside h3 p a {
     text-decoration: none;
 }
 
+label {
+    font-weight: bold;
+}
+
+.formulario {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+label, .formulario {
+    margin: 5px;
+}
+
+.btn-submit, .btn-reset {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-submit {
+    background: green;
+}
+
+.btn-reset {
+    background-color: red;
+}
